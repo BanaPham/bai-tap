@@ -4,16 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bài 5</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body
+        {
+            background: rgb(187, 236, 220);
+            display: flex;
+            justify-content: center; 
+            margin-top: 20%;
+        }
+        #loading
+        {
+            border: 4px solid rgb(132, 226, 230);
+            border-left-color: #e8edee;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+    </style>
 </head>
 <body>
-   <div id="content">
-        <ul>
-            <li>
-                <div id="loading"></div>
-            </li>
-        </ul>
-    </div>
+    <div id="loading"></div>
 </body>
 </html>
   
