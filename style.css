@@ -1,0 +1,157 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color:  rgb(161, 180, 174);
+    height: 100%;
+    display: flex;
+} 
+
+/* BTVN */
+#content 
+{
+    width: 100%;
+    height: 100%;
+    margin: 30px;
+    display: flex;
+    justify-content: center; 
+}
+
+#content li
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+} 
+
+/* Bai 1 */
+#content li img
+{
+    width: 100px; 
+    height: 100px;
+    border-radius: 50%;
+    margin: 20px;
+} 
+
+/* Bai 2 */
+#content li b
+{
+    width: 60px;
+    height: 23px;
+    line-height: 23px; 
+    display: flex;
+    justify-content: center; 
+    border-radius: 20px;
+    background-color: white;
+    font-family: Arial;
+    font-size: 12px;
+}
+
+/* Bai 3 */
+#content li p
+{
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center; 
+    border-radius: 8px;
+    line-height: 40px; 
+    background-color: white;
+    font-family: Arial;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Bai 4 */
+#content form
+{
+    margin: 15px;
+    font-family: Arial;
+    border-radius: 9px;
+    border: 2px solid #6e6e6e;
+    padding: 25px;
+    width: 300px;
+    height: 255px;
+    justify-self: start;
+    line-height: 20px;
+    color: white;
+    background-color: black;
+    padding-bottom: 25px;
+    margin: 20px;
+}
+
+#content form header
+{
+    cursor: context-menu;
+}
+
+input {
+    width: 290px;
+    height: 27px;
+    padding-left: 9px;
+    font-size: 12px;
+    color: white;
+    background-color: #000;
+    border-radius: 5px;
+    border: 1px solid #6e6e6e;
+}
+
+select
+{
+    color: white;
+    background-color: #000;
+    width: 300px; 
+    height: 30px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 1px solid #6e6e6e;
+    padding-left: 5px;
+}
+
+#footer
+{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer #btn
+{
+    color: white;
+    background-color: #000;
+    width: 80px;
+    height: 40px;
+    border: 1px solid #6e6e6e;
+    border-radius: 6px;
+}
+
+#footer #btn:hover
+{
+    color: black;
+    border: 1px solid #6e6e6e;
+    background-color: white;
+    border-radius: 6px;
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    cursor: pointer;
+}
+
+/* Bai 5 */
+#loading
+{
+    border: 4px solid rgb(132, 226, 230);
+    border-left-color: #e8edee;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+
